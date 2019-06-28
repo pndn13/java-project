@@ -8,8 +8,9 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
-	System.out.println( "Hello World!" );
+        final String msg1="msg1";
+	System.out.ptintln(lo);
+	System.out.println(Res_Bundle.getBundle(msg1));
     }
 	public String checkEvenOdd(int n)
 	{
